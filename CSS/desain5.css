@@ -1,0 +1,62 @@
+body {
+	font-family: Century Gothic;
+	padding: 0;
+	margin: 0; 
+	overflow: hidden;
+}
+
+header{
+	background-image: url(../Gambar/gambar26.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+/*SERVICE 3*/
+.box{
+	float: left;
+	margin-top: 150px;
+	margin-left: 57px;
+	width: 300px;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.box img {
+	width: 100px;
+	height: auto;
+}
+.button {
+	position: absolute;
+	top: 16%;
+	left: 93%;
+	transform: translate(-50%,-50%);
+}
+
+.button a:hover {
+	background-color: white;
+	color:black;
+}
+
+.btn {
+	border: 1px solid white;
+	padding: 5px 20px;
+	color: white;
+	text-decoration: none;
+	margin-right: 15px;
+	transition: 0.6s ease;
+}
+
+/*LOGO*/
+.logo img {
+	float: right;
+	margin-top: -515px;
+	margin-right: 470px;
+	width: 95px;
+}
+
+.logo img:hover {
+	opacity: 0.8;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<title>Comment | Geografi YF</title>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/desain4.css">
+</head>
+<header>
+<body>  
+<!--Logo-->
+	<div class="logo">
+		<a href="home.html"><img  src="Gambar/logo.png"></a>
+	</div>
+<!--Navbar-->
+	<div class="link">
+		<ul>
+			<li><a href="home.html">Home</a>
+			<li><a href="gallery.html">Gallery</a>
+			<li><a href="about.html">About</a>
+			<li class="active"><a href="komentar.html">Comment</a>
+			</li>
+		</ul>
+	</div>
+<br><br>
+<div class="komen">
+<h2>COMMENT HERE</h2>
+<p><span class="error"></span></p>
+<form method="post" action="konfirmasi.php">  
+<div class="komen2">
+  Name <br><input type="text" name="nama" placeholder="Enter Your Name" autocomplete="off" required>
+  <br>
+  E-mail <br><input type="text" name="email" placeholder="Enter Your Email" autocomplete="off" required>
+  <br>
+  <div class="text">
+  Comment <br><textarea name="isi" placeholder="Insert Your Comment..." rows="10" cols="40" required></textarea></div>
+  </div>
+  <br>
+  <input type="submit" name="kirim" value="SEND">  
+  <input type="reset" name="batal" value="CANCEL">
+</form>
+</div>
+</body>
+</header>
+</html>

@@ -1,0 +1,33 @@
+* {
+	font-family: Century Gothic;
+	background-color: grey;
+	background-position: center;
+
+}
+/*GAMBAR*/
+.gambar img {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.gambar img {
+	padding: 2px;
+	height: 150px;
+	width: 300px;
+	border: 1px solid transparent;
+	margin-bottom: 2px;
+}
+
+.gambar img:hover {
+	background-color: crimson;
+	background: white;
+}
+
+/*LOGO*/
+.logo img {
+	float: right;
+	width: 60px;
+	height: auto;
+	margin-right: 10px;
+	margin-top: -4040px;
+}

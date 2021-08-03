@@ -1,0 +1,91 @@
+body {
+	font-family: Century Gothic;
+	padding: 0;
+	margin: 0; 
+}
+
+header{
+	background-image: url(gambar9.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/*NAVBAR*/
+ul {
+	list-style-type: none;
+	float: left;
+	margin-top: 20px;
+	margin-left: -16px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	margin-left: 6px;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: white;
+	color: black;
+}
+
+ul li.active a {
+	background-color: white;
+	color: black;
+}
+
+/*ABOUT*/
+.box1{
+	float: right;
+	width: 300px;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	margin-top: 140px;
+	margin-right: 20%;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.box1 img {
+	width: 100px;
+	height: auto;
+}
+
+.box2{
+	float: left;
+	width: 300px;
+	height: 306px;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	margin-top: 83px;
+	margin-left: 20%;
+	color: white;
+	font-family: Century Gothic;
+}
+
+.box2 img {
+	width: 100px;
+	height: auto;
+}
+
+/*LOGO*/
+.logo img {
+	float: right;
+	margin-top: -523px;
+	margin-left: 830px;
+	width: 60px;
+}
+
+.logo img:hover {
+	opacity: 0.5;
+}
